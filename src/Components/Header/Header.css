@@ -1,0 +1,16 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e4e4;
+    box-sizing: border-box;
+}
+.header_title{
+    margin: 10px 10px 10px 20px;
+}
+.header_nav{
+    display: flex;
+    margin-right: 15px;
+    box-sizing: border-box;
+}

@@ -9,3 +9,16 @@ export interface IProductTshirt {
     gender:string,
     quantity:number 
 }
+export interface Tshirt{
+    data:IProductTshirt[],
+    isLoading:boolean
+  }
+export interface IFilter{
+    color:string[],
+    pricerange:string[],
+    type:string[],
+    gender:string[]
+}
+  export interface ISelectedFilter{
+    filterType:IFilter[]
+  }

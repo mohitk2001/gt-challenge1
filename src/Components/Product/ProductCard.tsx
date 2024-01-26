@@ -1,12 +1,12 @@
 import React from "react";
 import { IProductTshirt } from "../../Pages/Product/Product.types";
 import "../../Pages/Product/Product.css";
-import { Button } from "antd";
 interface ProductCardProps {
   cardDetails: IProductTshirt;
+  // filterableValue:string[] 
 }
 const ProductCard: React.FC<ProductCardProps> = ({ cardDetails }) => {
-  
+   
   return (
     <div className="productcard">
       <p style={{ textAlign: "center", marginTop: "10px", fontWeight: "600" }}>
@@ -22,7 +22,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ cardDetails }) => {
         }}
       >
         <span style={{fontWeight:800}}>Rs {cardDetails.price}</span>
-        <Button style={{ backgroundColor: "#e4e4e4" }}>Add to cart</Button>
+        <button style={{ backgroundColor: "#e4e4e4" }}>Add to cart</button>
       </div>
     </div>
   );

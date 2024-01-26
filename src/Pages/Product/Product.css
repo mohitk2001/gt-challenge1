@@ -13,6 +13,10 @@
 }
 .productSearchInput{
     width: 93% ;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
 }
 .search-button-container{
     background-color: #e4e4e4;
